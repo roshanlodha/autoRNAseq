@@ -1,18 +1,18 @@
 # autoRNAseq
-A bash script and some dependencies to automate RNA-seq analysis. A dummy 
+A bash script and some dependencies to automate RNA-seq analysis. A dummy file structure is provided as an example.
 
 ## Inputs
-To program depends on a particular file structure and `conda`. 
+The script depends on a particular file structure and `conda`. 
 
 ### file structure
 - RNA-seq
 	- PROJECT1
-		- NAIVE
+		- PRE
 			- sample1_identifier_L002_R1_001.fastq.gz 
 			- sample1_identifier_L002_R2_001.fastq.gz 
 			- sample2_identifier_L002_R1_001.fastq.gz 
 			- sample2_identifier_L002_R2_001.fastq.gz 
-		- RESISTANT
+		- POST
 			- sample3_identifier_L002_R1_001.fastq.gz 
 			- sample3_identifier_L002_R2_001.fastq.gz 
 			- sample4_identifier_L002_R1_001.fastq.gz 
@@ -29,8 +29,10 @@ To program depends on a particular file structure and `conda`.
 ### analysis.R
 *to be written*
 
+#### user defined 
+
 ### additional requirements
-A reference sequence for adapater trimming (e.g. `TruSeq3-PE.fa`) and a reference cDNA sequence (e.g. `Homo_sapiens.GRCh38.cdna.all.fa`) are required.
+A sequence for adapater trimming (e.g. `TruSeq3-PE.fa`) and a reference cDNA sequence (e.g. `Homo_sapiens.GRCh38.cdna.all.fa`) are required.
 
 ## Output
 *to be written*
