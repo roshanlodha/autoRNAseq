@@ -1,6 +1,6 @@
 # autoRNAseq
 A bash script and some dependencies to automate RNA-seq analysis. A dummy file structure is provided as an example. <br>This script has been tested on MacOS Catalina, and should work on Unix-based systems.
-*Additional Requirements:* A sequence for adapater trimming (e.g. `TruSeq3-PE.fa`) and a reference cDNA sequence (e.g. `Homo_sapiens.GRCh38.cdna.all.fa`) are required.
+<br>*Additional Requirements:* A sequence for adapater trimming (e.g. `TruSeq3-PE.fa`) and a reference cDNA sequence (e.g. `Homo_sapiens.GRCh38.cdna.all.fa`) are required.
 
 
 ## Usage
