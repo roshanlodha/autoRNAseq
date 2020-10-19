@@ -1,0 +1,5 @@
+sample	group	dir
+LTL331sample1	naive	331_Sample_11_S100
+LTL331sample2	naive	331_Sample_6_S101
+LTL331Rsample3	resistant	331R_Sample_7_S102
+LTL331Rsample4	resistant	331R_Sample_8_S103
